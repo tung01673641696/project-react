@@ -1,0 +1,48 @@
+.home {
+  margin: auto;
+  .carousel__advertisement {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .carousel {
+      width: 65%;
+      height: 200px;
+
+      div {
+        height: 200px;
+
+        img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .advertisement {
+      width: 30%;
+      height: 200px;
+
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .productsType {
+    .vegetable {
+      margin-top: 50px;
+      margin: auto;
+
+      div {
+        background: green;
+        height: 200px;
+      }
+    }
+  }
+}
